@@ -4,7 +4,7 @@ import { useMovies } from "./useMovies";
 import { useLocalStorage } from "./useLocalStorage";
 
 const average = (arr) =>
-  arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
+  arr.reduce((acc, cur, arr) => acc + cur / arr.length, 0);
 
 const KEY = "5f78c4a5";
 
