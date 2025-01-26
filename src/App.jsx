@@ -193,7 +193,6 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatch, watched }) {
     Runtime: runtime,
     imdbRating,
     Plot: plot,
-    Released: released,
     Actors: actors,
     Director: director,
     Genre: genre,
